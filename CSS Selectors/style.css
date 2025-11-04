@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* RESET CSS */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* CSS */
+body {
+  font-family: "Inter", sans-serif;
+  width: 70dvw;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+/* h2::before {
+  content: "555";
+  color:red;
+}
+h2::after {
+  content: "🤪";
+} */
+/* h1 {
+  color: red;
+}
+.text {
+  color: blue;
+}
+#title {
+  color:greenyellow;
+  background-color: #333;
+} */
+
+/* descendant selector (space) */
+h1 span {
+  color: wheat;
+  background-color: rebeccapurple;
+}
+
+/* child selector (>) */
+ul > li {
+  font-weight: bold;
+  color: blue;
+}
+
+/* adjacent sibling selector (+) */
+h2 + p {
+  font-style: italic;
+  font-weight: 600;
+  color: gold;
+  background-color: #333;
+}
+
+/* general sibling selector (~) */
+h2 ~ p {
+  text-decoration: underline;
+}
