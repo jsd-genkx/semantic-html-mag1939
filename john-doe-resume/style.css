@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    background-image: linear-gradient(to bottom, #5c1d41, #742d5e, #893f7e, #9c54a1, #ab6ac7, #c26ecd, #d872d2, #ef76d6, #ff6cb2, #ff6b8b, #ff7466, #fb8445);
+    color: #11080b;
+}
+
+img {
+    display: block;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* *เพิ่ม* Padding ด้านซ้ายขวาเล็กน้อยเพื่อไม่ให้เนื้อหาชิดขอบจอเกินไป * */
+    padding: 0 20px;
+}
+
+.box h2 {
+    background-color: #9f3e55;
+    border-radius: 24px;
+
+
+/* ใช้ inline-block ในเรื่องปรับขนาดกล่องตามขนาด content แตกต่างกันไป ถ้าใช้เป็น block เราจะต้องมานั่งปรับขนาดของแต่ละกล่องแบบ specific*/
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    text-align: center;
+    color: lab(100% 0.01 -0.01);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#about {
+    text-align: center;
+}
+
+
+#avatar img {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+    border:solid #ff7466 3px;
+}
