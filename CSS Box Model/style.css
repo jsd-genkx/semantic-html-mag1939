@@ -15,7 +15,8 @@ body {
 }
 
 .text {
-    padding: 10px 20px 30px 40px;
+    width: 200px;
+    padding: 40px;
     /* outline: solid rebeccapurple 90px; */
     border: solid green 5px;
 }
